@@ -1,2 +1,20 @@
-package PACKAGE_NAME;public class Dog {
+public class Dog extends Pet {
+    private String breed;
+
+    public Dog(String name, int age, String breed) {
+        super(name, age);
+        this.breed = breed;
+    }
+
+    public String getBreed(){
+        return breed;
+    }
+    public void dig(){
+        System.out.println(getName() + " digs a hole!");
+    }
+
+    public void eats(){
+        System.out.println("Nom Nom Nom");
+    }
+
 }

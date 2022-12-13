@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Walk {
+public interface Walk {
+    //do something with fly
 }

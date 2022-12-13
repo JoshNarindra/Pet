@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Fly {
+public interface Fly {
+    //do something with fly
 }
